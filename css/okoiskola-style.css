@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url(css/font/BebasNeue.otf);
+}
+
+.content-container{
+	margin: 0;
+}
+
+.content-title{
+	margin: 0 80px;
+}
+
+.row-1{
+	padding: 0 80px;
+	margin-bottom: 30px;
+}
+
+.row-1 h3{
+	font-weight: 100;
+	color:#1BA086;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-family: "BebasNeue";
+}
+
+.row-1 img{
+	float: right;
+	width: 400px;
+	margin-left: 10px;
+}
+
+.row-2{
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background-color: #00B898;
+	padding: 0 80px;
+	color: #FEFEFE;
+}
+
+.row-2 span{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	max-width: 680px;
+	margin: 0 auto;
+	font-family: "BebasNeue";
+}
+
+.row-3{
+	background-color: #FAFAFC;
+	padding: 30px 80px;
+}
+
+.row-4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 80px;
+}
+
+.row-4 a {
+	color:#1BA086;
+}

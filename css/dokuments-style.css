@@ -1,0 +1,13 @@
+.content-container p{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.content-container p a{
+	color: #1BA086;
+	text-transform: uppercase;
+}
+
+.content-container p a:hover{
+	text-decoration: underline;
+}

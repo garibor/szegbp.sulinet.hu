@@ -1,0 +1,50 @@
+.documents-table{
+	margin-top: 35px;
+	width: calc(100% - 20px);
+}
+
+.content h2{
+	margin-bottom: 35px;
+}
+
+.content > .alert-danger, .alert-success, .alert-info{
+	width: 400px;
+}
+
+.refhresh-page{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	padding: 10px 10px;
+}
+
+.trash, .open{
+	padding: 3px 3px;
+	margin: 0 3px;
+	font-size: 15px;
+}
+
+.trash:hover{
+	color: #df2d0f;	
+}
+
+.open:hover{
+	color:#e99002;
+}
+
+input::-webkit-file-upload-button{
+	color: #008cba;
+	border-color: #008cba;	
+	background-color: transparent;
+	border: 1px solid #008cba;
+	padding: .375rem .5rem;
+	content: "Valami más";
+}
+
+input::-webkit-file-upload-button:hover{
+	color: #fff;
+	background-color: #008cba;
+	border-color: #008cba;
+}
+

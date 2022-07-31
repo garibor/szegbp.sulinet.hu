@@ -1,0 +1,563 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url('css/font/BebasNeue.otf');
+}
+
+a:link, a:visited {
+	color: (internal value);
+	text-decoration: none;
+	color: #000;
+}
+
+a:link:active, a:visited:active { 
+  	color: (internal value);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: "Arial";
+}
+
+.info{
+	width: 380px;
+	float: right;
+	margin-top: -110px;
+	margin-right: 50px;
+	font-size: 14px;
+	color:#BBBBBB;
+}
+
+.info > img{
+	margin-top: 10px;
+	height: 20px;
+	width: 20px;
+}
+
+.info > img:last-child{
+	margin-left: 0px;
+}
+
+.a {
+	width: 100%;
+	height: 150px;
+	vertical-align: middle;
+	display: table-cell;
+	margin-top: -21px;
+}
+
+.high-school-name{
+	height: 140px;
+	width: 460px;
+	background-image: url('css/img/logo.svg');
+	background-repeat: no-repeat;
+	background-size: 450px;
+	background-position: right top;
+}
+
+high-school-name > h1{
+	margin-left: 50px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	border-left: 5px solid #00B999;
+	height: 100px;
+	font-family: "BebasNeue";
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.logo img{
+	width: 120px;
+	float: right;
+	margin-top: -95px;
+	margin-left: 70px;
+}
+
+.news-box{
+	margin-bottom: 20px;
+}
+
+.actual-news{
+	margin-top: 60px;
+	margin-left: 80px;	
+	margin-bottom: 20px;
+	width: 60%;
+	float: left;
+	border-right: 1px solid #EDEDED;
+}
+
+.actual-news-title{
+	font-size: 30px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-family: "BebasNeue";
+}
+
+.actual-new-box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 40px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.actual-new-title{
+	font-size: 18px;
+	color: #00B999;
+}
+
+.actual-new-title > a {
+	color:#00B999;
+}
+
+.actual-new-title > a:hover {
+	color:#FFE384;
+}
+
+.actual-new-text{
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.actual-new-date{
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.featured-news-box{
+	width: 25%;
+	float: left;
+	margin-left: 30px;
+	margin-right: 80px;
+	margin-top: 45px;
+	padding-bottom: 40px;
+	background-color: #FAFAFC;
+}
+
+.featured-news-box > hr{
+	width: 50px;
+	height: 4px;
+	margin-left: 20px;
+	margin-top: 30px;
+	background-color: #FFE384;
+	border: none;
+}
+
+.featured-news-box-title{
+	font-size: 30px;
+	text-align: center;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+	background-color: #D5FFB7;
+	padding:14px 0px 10px 0;
+	margin-bottom: 5px;
+}
+
+.featured-news-text{
+	text-align:justify;
+}
+
+.featured-news{
+	padding:0 20px;
+}
+
+.featured-news-title{
+	font-size: 20px;
+	padding:25px 0 10px 0;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.next-actual-news{
+	width: 210px; 
+	margin: 0px auto 0 auto;
+}
+
+.next-actual-news > a{
+	color:#00B999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.next-actual-news > a:hover{
+	color: #FFE384;
+}
+
+.events-box-body{
+	width: 100%;
+	margin-top: 40px;
+	padding:20px 0;
+	background-color: #FAFAFA;
+}
+
+.events-box-title{
+	font-size: 30px;
+	padding-top: 30px;
+	margin-left: 80px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.events-box-text{
+	height: 415px;
+	width: 1100px;
+	margin: 25px auto;
+	background-color: #00B89C;
+}
+
+.event-box{
+	float: left;
+}
+
+.event-row-1, .event-row-2{
+	width: 557px;
+	position: relative;
+	float: left;
+	border-left: 3px solid #FFF;
+	background-color: #D4FFBF;
+}
+
+.event-row-2{
+	border-top: 3px solid #FFF;
+}
+
+.event-box-text{
+	float: left;
+	width: 560px;
+	padding: 0 20px;
+}
+
+.event-row-1 > .event-img > img {
+	float: left;
+}
+
+.event-row-1 > .event-title{
+	float: right;
+}
+
+.event-row-1 > .event-date{
+	float: right;
+	margin-left: 206px;
+}
+
+.event-row-2 > .event-img > img {
+	float: right;
+	margin-left: 10px;	
+}
+
+.event-row-2 > .event-title{
+	float: right;
+	margin-left:  -10px;
+}
+
+.event-row-2 > .event-date{
+	float: left;
+}
+
+.event-title{
+	color: #333;
+	margin-top: 30px;
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-family: "BebasNeue";
+	width: 320px;
+}
+
+.event-date{
+	padding-left: 25px;
+	width: 310px;
+	bottom: 12px;
+	color: #333;
+	position: absolute;
+}
+
+.event-img > img{
+	width: 206px;
+	height: 206px;
+	object-fit:cover;
+}
+
+
+.talented-student-header-title{
+	font-size: 30px;
+	padding: 35px 0px 30px 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #D5FFB7;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.talented-student-img{
+	width: 200px;
+	margin: 0 auto 30px auto;
+}
+
+.talented-student-img > img{
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.talented-student-boxs{
+	width: 900px;
+	min-height: 800px;
+	margin:40px auto 0px auto;
+}
+
+.talented-student-box{
+	width: 250px;
+	float: left;
+	margin: 20px 15px 0px 15px;
+	padding: 20px 10px;
+}
+
+.talented-student-title{
+	text-transform: uppercase;
+	color:#00B99B;
+}
+
+.talented-student-title > a {
+	color:#00B99B;
+}
+
+.talented-student-title > a:hover {
+	color:#FFE384;
+}
+
+.talented-student-text{
+	text-align: justify;
+}
+
+.next-talented-students{
+	width: 220px; 
+	padding-top: 30px;
+	padding-bottom:30px; 
+	margin: 0px auto 0 auto;
+}
+
+.next-talented-students > a{
+	color:#00B999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.next-talented-students > a:hover{
+	color: #FFE384;
+}
+
+.teachers-result-boxs{
+	background-color: #FAFAFA;
+}
+
+.teachers-result-box-title{
+	font-size: 30px;
+	padding-top: 50px;
+	margin-left: 80px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.teacher-result-box{
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+	min-height: 210px;
+	border-bottom: 1px solid #dadada;
+}
+
+.teacher-result-img{
+	margin-right: 30px;
+}
+
+.teacher-result-img > img{
+	width: 350px;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+	object-fit: cover;
+}
+
+.teacher-result-title{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color:#00B99B;
+}
+
+.teacher-result-title > a{
+	color:#00B99B;
+}
+
+.teacher-result-title > a:hover{
+	color: #FFE384;
+}
+
+.teacher-result-text{
+	text-align: justify;
+	padding-right: 80px;
+}
+
+.next-teacher-results{
+	width: 220px; 
+	padding-top: 20px;
+	padding-bottom:30px; 
+	margin: 0px auto 0 auto;
+}
+
+.next-teacher-results > a{
+	color:#00B999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.next-teacher-results > a:hover{
+	color: #FFE384;
+}
+
+.foundation-boxs{
+	background-color: #00B999;
+	padding-bottom: 45px;
+}
+
+
+.foundation-boxs > hr{
+	width: 50px;
+	height: 4px;
+	margin-left: 80px;
+	margin-top: 40px;
+	background-color: #FFE384;
+	border: none;
+}
+
+.foundation-boxs-title{
+	color:#fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+	margin-left: 80px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.foundation-box{
+	margin: 0 80px;
+	padding-top: 40px;
+}
+
+.foundation-title{
+	font-size: 30px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.foundation-text{
+	padding-top: 20px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.link-boxs{
+	width: 100%;
+	height: 220px;
+	margin-top: 2px;
+	background-color: #ededed;
+}
+
+.link-box-title{
+	font-size: 30px;
+	padding-top: 50px;
+	margin-left: 80px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.link-box{
+	margin-top: 30px;
+	float: left;
+	border-right: 2px solid #000;
+}
+
+.lb-location{
+	margin-left: 80px;
+	width: 420px;
+}
+
+.lb-phone,
+.lb-mail{
+	padding-left: 20px;
+	width: 250px;
+}
+
+.link-icon > img{
+	width: 35px;
+	height: 35px;
+	float: left;
+	padding-right: 10px;
+}
+
+.link-text{
+	margin-left: 10px;
+}
+
+.link-text > a {
+	color:#00B999;
+	margin-left: 35px;
+}
+
+.link-text > a:hover {
+	color: #FFE384;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+	color: #FFF;
+}
+
+.copyright{
+	font-weight: 100;
+	text-align: center;
+}
+
+.slideshow > img{
+	width: 100%;
+	height: 350px;
+	margin-top: -14px;
+	object-fit:cover;
+}
+
+.slideshow-body {
+	height: 350px;
+	background-image: url('css/img/slide.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: inherit;
+}	
+
+.content-container{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.content-title{
+	font-size: 30px;
+	padding-top: 50px;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+}
+
+.content-container{
+	margin-bottom: 50px;
+}
+
+.content-container a:link{
+	color: #1BA086;
+}
+		
+.content-container a:hover{
+	text-decoration: underline;
+}

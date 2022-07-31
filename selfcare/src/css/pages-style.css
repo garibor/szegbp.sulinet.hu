@@ -1,0 +1,43 @@
+.content h2{
+	margin-bottom: 35px;
+}
+
+.edit, .open{
+	padding: 3px 3px;
+	margin: 0 3px;
+	font-size: 15px;
+}
+
+.open:hover{
+	color:#e99002;
+}
+
+.edit:hover{
+	color:#009688;
+}
+
+.refhresh-page{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	padding: 10px 10px;
+}
+
+.cancel-page, .save-page{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	padding: 7px 25px;
+}
+
+.ck{
+	width: 1130px;
+	height: 500px;
+}
+
+.row-editor{
+	margin-top: 50px;
+	margin: 50px 0 0 0;
+}

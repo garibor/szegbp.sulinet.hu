@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f9fafb!important;
+	display: inline-flex;
+}
+
+.navigation-block{
+	margin: 0;
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	background: #FFF;
+	border-right: 1px solid #efefef; 
+	z-index: 1;
+}
+
+.horizontal-nav{
+	height: 50px;
+	width: 100%;
+	background-color: #FFF;
+	border-bottom: 1px solid #efefef;
+	position: absolute;
+	z-index: -10;
+}
+
+.icon-bar{
+	margin-top: 15px;
+	margin-left: calc(100% - 40px);
+}
+
+.icon-bar i{
+	color: red;
+}
+
+.icon-bar i:hover{
+	color:#313435;
+	cursor: pointer;
+}
+
+.navigation-block-logo{
+	font-size: 25px;
+	font-weight: 200;
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	background: #FFF;
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	line-height: 50px;
+	color:#313435;
+}
+
+.navigation-block-logo span{
+	font-weight: 400;
+	color: #2196f3!important;
+}
+
+.navigation-block ul{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.navigation-block ul li{
+	display: flex;
+	line-height: 35px;
+}
+
+.navigation-block ul li a{
+	color:#72777a;
+	font-size: 14px;
+	text-decoration: none;
+	width: 249px;
+	padding:5px;
+	padding-left: 30px;
+}
+
+.navigation-block ul li a:hover{
+	color:#313435;
+	background-color: #f9fafb;
+}
+
+.navigation-block ul li a i{
+	padding-right: 15px;
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+.content{
+	width: calc(100% - 290px);
+	position: absolute;
+	z-index: -100;
+	margin-left: 270px;
+	margin-right: 20px;
+	margin-top: 70px;
+}
+
+#user-menu{
+	width: 150px;
+	margin-left: -120px;
+	margin-top: 16px;
+	background-color: #f0f0f0;
+}
+
+.user-menu{
+	width: 200px;
+	padding-top: 15px;
+	position: absolute;
+	margin-left: -170px;
+	margin-top: 5px;
+	border: 1px solid #efefef;
+	background-color: #f0f0f0;
+	display: none;
+	z-index: 10;
+}
+
+.user-menu-visible{
+	display: block;
+}
+
+.user-menu-items{
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: -40px;
+}
+
+.user-menu-item{
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	line-height: 25px;
+}
+
+.user-menu-item a{
+	color:#72777a;
+	font-size: 14px;
+	text-decoration: none;
+		width: 249px;
+	padding:5px;
+	padding-left: 30px;
+}
+
+.user-menu-item a:hover{
+	background-color: white;
+}
+.page-title{
+	margin-bottom: 30px;
+
+}

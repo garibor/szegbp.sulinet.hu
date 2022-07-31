@@ -1,0 +1,60 @@
+.new-user{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	padding: 7px 25px;
+}
+
+.edit-user,.save-user, .cancel-user{
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	padding: 7px 25px;
+	float: right;
+}
+
+.user-table{
+	width: calc(100% - 20px);
+}
+
+.modal{
+	margin-top: 30px;
+}
+
+.form-control{
+	width: 280px;
+}
+
+.personal-data{
+	display: inline-table;
+	margin-right: 25px;
+}
+
+.login-data{
+	display: inline-table;
+	margin-right: 25px;
+}
+
+.col-form-label{
+	margin-top: 10px;
+}
+
+.custom-file-label{
+	width: 280px;
+}
+
+.alert-danger{
+	position: absolute;
+	z-index: 10;
+}
+
+.open:hover{
+	color:#e99002;
+}
+
+.open{
+	padding: 3px 3px;
+	margin: 0 3px;
+	font-size: 15px;
+}
